@@ -1,0 +1,18 @@
+{
+  "name": "tekton/api",
+  "type": "library",
+  "license": "MIT",
+  "description": "An API manager built with Guzzle for Tekton.",
+  "homepage": "https://gitlab.com/tekton/api",
+  "autoload": {
+    "psr-4": {
+      "Tekton\\API\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "tekton/support": "^1.0.0",
+    "guzzlehttp/guzzle": "^6.2"
+  }
+}

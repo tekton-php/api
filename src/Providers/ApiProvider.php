@@ -1,6 +1,6 @@
 <?php namespace Tekton\API\Providers;
 
-use Tekton\ServiceProvider;
+use Tekton\Support\ServiceProvider;
 use Tekton\API\ApiManager;
 
 class ApiProvider extends ServiceProvider {
