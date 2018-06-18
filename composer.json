@@ -3,7 +3,7 @@
     "type": "library",
     "license": "MIT",
     "description": "An API manager built with Guzzle for Tekton.",
-    "homepage": "https://gitlab.com/tekton/api",
+    "homepage": "https://github.com/tekton-php/api",
     "autoload": {
         "psr-4": {
             "Tekton\\API\\": "src/"
