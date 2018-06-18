@@ -1,4 +1,4 @@
 Tekton API
-=============
+==========
 
-An API manager built with [Guzzle](https://packagist.org/packages/guzzlehttp/guzzle).
+A really basic API manager built with [Guzzle](https://packagist.org/packages/guzzlehttp/guzzle).

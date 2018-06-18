@@ -1,16 +1,22 @@
 <?php namespace Tekton\API\Providers;
 
-use Tekton\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 use Tekton\API\ApiManager;
 
-class ApiProvider extends ServiceProvider {
+class ApiProvider extends ServiceProvider
+{
+    function provides()
+    {
+        return ['api'];
+    }
 
-    function register() {
+    function register()
+    {
         // Register the API Manager
-        $this->app->singleton('api', function() {
-            $timeout = $this->app->make('config')->get('api.timeout');
+        $this->app->singleton('api', function($app) {
+            $config = $app['config']->get('api');
 
-            return new ApiManager($timeout);
+            return new ApiManager($config);
         });
     }
 }

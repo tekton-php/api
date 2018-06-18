@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
-        "tekton/support": "^1.0.0",
+        "tekton/support": "^2.0.0",
         "guzzlehttp/guzzle": "^6.2"
     }
 }
